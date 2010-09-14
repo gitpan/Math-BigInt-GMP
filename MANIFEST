@@ -5,23 +5,25 @@ build/README
 CHANGES
 CREDITS
 GMP.xs
+inc/Devel/CheckLib.pm
 INSTALL
 lib/Math/BigInt/GMP.pm
 LICENSE
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml			Module meta-data (added by MakeMaker)
+META.yml
 README
-SIGNATURE
-t/bigfltpm.inc			# actual tests
-t/bigfltpm.t			# original test, but with Math::GMP 
-t/bigintg.t			# Math::GMP implementation of uint math core
-t/bigintpm.inc			# actual tests
-t/bigintpm.t			# original test, but with Math::GMP
+t/bigfltpm.inc
+t/bigfltpm.t
+t/bigintg.t
+t/bigintpm.inc
+t/bigintpm.t
 t/biglog.t
 t/bigroot.t
 t/pod.t
 t/pod_cov.t
+t/threads.t
 TODO
 typemap
+SIGNATURE                                Public-key signature (added by MakeMaker)
