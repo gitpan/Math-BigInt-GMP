@@ -9,7 +9,7 @@ use 5.006002;
 
 use vars qw/$VERSION/;
 
-$VERSION = '1.30';
+$VERSION = '1.31';
 
 use XSLoader;
 XSLoader::load "Math::BigInt::GMP", $VERSION;
@@ -120,6 +120,17 @@ sub _log_int
 
   ($x,$exact);
   }
+
+sub STORABLE_freeze {
+    my ($self, $cloning) = @_;
+    return Math::BigInt::GMP->_num($self);
+}
+
+sub STORABLE_thaw {
+    my ($self, $cloning, $serialized) = @_;
+    Math::BigInt::GMP->_new_attach($self, $serialized);
+    return $self;
+}
 
 1;
 __END__

@@ -23,6 +23,7 @@ t/biglog.t
 t/bigroot.t
 t/pod.t
 t/pod_cov.t
+t/storable.t
 t/threads.t
 TODO
 typemap
