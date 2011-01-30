@@ -14,6 +14,7 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 README
+t/00-signature.t
 t/bigfltpm.inc
 t/bigfltpm.t
 t/bigintg.t

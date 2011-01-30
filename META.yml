@@ -1,12 +1,12 @@
 ---
 name: Math-BigInt-GMP
 author: Tels
-version: 1.32
+version: 1.33
 version_from: lib/Math/BigInt/GMP.pm
 license: perl
 distribution_type: module
-generated_by: Math-BigInt-GMP version 1.32
+generated_by: Math-BigInt-GMP version 1.33
 installdirs: site
 requires:
-  Math::BigInt: 1.9
+  Math::BigInt: 1.9905
   XSLoader: 0.02
