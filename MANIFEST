@@ -14,8 +14,10 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 README
-t/00-signature.t
-t/01-load.t
+t/00sig.t
+t/01load.t
+t/02pod.t
+t/03podcov.t
 t/bigfltpm.inc
 t/bigfltpm.t
 t/bigintg.t
@@ -23,8 +25,6 @@ t/bigintpm.inc
 t/bigintpm.t
 t/biglog.t
 t/bigroot.t
-t/pod.t
-t/pod_cov.t
 t/storable.t
 t/threads.t
 TODO
