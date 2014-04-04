@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,41 +15,45 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 70d6187d0152848c922dc4360fa6dd3a3dc35c62 BUGS
-SHA1 1c38b0790580a2e2239404dd7d5de0b8ce415f11 CHANGES
+SHA1 a3590f9b33b207ebfe55ea375ac754438f5a128b CHANGES
 SHA1 dda5ca4f413031e9efcaa1600461d5e2adaa3a40 CREDITS
 SHA1 d7497d6d105042817c1734585be04ad2ebec4db2 GMP.xs
 SHA1 d6b7be7fb558f2df93e6bc55148bba35cae22ce4 INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
 SHA1 f1f5d7799d2a10004d9fde9e929edaca038b8c6b MANIFEST
 SHA1 411ab4f05c252f85f12f12e087bae0adc5ba0aad MANIFEST.SKIP
-SHA1 95a51ac44107896279b27d07eb571553f3c5a457 META.json
-SHA1 f8705c7b74812ddd94b4056fc5bad153d8d8273f META.yml
-SHA1 c1e61286ff1f620f3da7fc7d06fdc4f6ce105546 Makefile.PL
+SHA1 487a110705adf77f7c5b84075fe73308bdcc433c META.json
+SHA1 0e776863fc72946e4be67987a3b7b941165a5a8c META.yml
+SHA1 ab794c91e16a3cf176bf8c2f3f89b083a4035ae2 Makefile.PL
 SHA1 ddef2225fa80a87f3138f23cb7fdbc8468c1f58f README
 SHA1 6c7207c83d636868d3d1f1fc42f3f9e5897cbe85 TODO
 SHA1 fd48d0d8750eb949e485d8136b5b424fe73e9775 build/README
 SHA1 7bcc4113830721ad6e37a1ea79df94a6987c836d build/leak.pl
 SHA1 ac25bda8a6eb9058a9e42a8943c3e11b9fed88dc build/leaktest
-SHA1 5bad87980fc59ecb29c9afe0719c48ad32758d63 inc/Devel/CheckLib.pm
-SHA1 06320330b1c5212c4b733c24f12d5594ab35dbe1 lib/Math/BigInt/GMP.pm
+SHA1 58711d6c7095097a2b79697eb29cc361aa12da72 inc/Devel/CheckLib.pm
+SHA1 57afa5ea67d4bb8bf6932ad78a64b83216552cb5 lib/Math/BigInt/GMP.pm
 SHA1 6e9557e746e881ab1568cdcec17ff3c4f1508502 t/00sig.t
-SHA1 ab94a8c86b2b8fda2e02f9e3de43dff6186e65d3 t/01load.t
+SHA1 2b034eaa838015c62ed42cfc23cbc3814ce0a04f t/01load.t
 SHA1 02ef05af53cb7378452590324bb21dfe61f44069 t/02pod.t
-SHA1 ada3fcae2f9313cc97e0b999b13b30dac9a3deda t/03podcov.t
-SHA1 d05514d6cae3afa4feb983d5467eaf9422aa546c t/bigfltpm.inc
-SHA1 a8f364fea5e2993f5ae7bd3f8463024175d33e24 t/bigfltpm.t
+SHA1 c2891d57a7da799a196ae8b276da940cb3eccead t/03podcov.t
+SHA1 e6bb2aea2f026016848db9ca96507c4ca4e3d265 t/bigfltpm.inc
+SHA1 9537400817c028f2282e3c085796ecbded0ccb66 t/bigfltpm.t
 SHA1 26c3ca060f6b7474ad8b2db3c1bae2b98e13adfd t/bigintg.t
-SHA1 845e7daa3c6b2463a6fdc9218044975801547bb8 t/bigintpm.inc
-SHA1 5c7e31a73f1827d08118f96cf31d5d4e792ab8c0 t/bigintpm.t
+SHA1 d5d419d73cc52371ba3487895fd49f793ffe4d0c t/bigintpm.inc
+SHA1 73ac3701a1116b1831c871153c836f618a60f4d7 t/bigintpm.t
 SHA1 5bdf82ef7085b97caa496bfc71ab1fbfe48ef9e8 t/biglog.t
 SHA1 da260b6e02b220868fc7b4c0f87569299402fbf7 t/bigroot.t
 SHA1 f1bcab94173a57861fcc40ac90eb72f64aafea7f t/storable.t
 SHA1 e489ec79ce64d0d943e291a3eaa654298e6e49ab t/threads.t
 SHA1 20cf43acc1a728d0ee8245b106937a2a97900266 typemap
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (Cygwin)
+Version: GnuPG v1
 
-iEYEARECAAYFAk5jykUACgkQVQvyyU1bchpbUQCglrXtBTDqJHOcg4jNhANCddpi
-SRMAoNAV0CKT1a3JdH7AdSkh4vixU8Jw
-=HATQ
+iQEcBAEBAgAGBQJTPpqeAAoJEGcmPl2fr166OTAIAL9qXmVxJmPQeR5C4zUxAakN
+SNsMlXOJv5jIPLiG9SSMmIYbBWqRn/3iFUY6twrcffdEM1BCsJXPSj2kSOO7Pl+M
+DCOwjtLYIXtltH8Fcutu5j12Z6uL91OoqtGNYk2DFsQhszbyNeRvRBvEclhGQZKH
+d/Ji9c3E1MIrzKHDlASq7h+EsJEdL2a3qPQBTX17f4RkzAXqDGHUt1c0mal05DOm
+xnY+6qBVjotsd3xODBNHeKhLYicWiv6jCFkoEa0HeNveJDMfT3BRMyx2ZUG0+1lV
+1WpF765y7NVZ4Kv0tC20+rlCN0CmN+ICgePD02/x5Y6fqytsMpZGqg2sLEJdnek=
+=nraw
 -----END PGP SIGNATURE-----
